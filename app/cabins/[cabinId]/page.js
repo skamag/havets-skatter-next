@@ -1,4 +1,4 @@
-import Image from "next/Image"
+import Image from "next/image"
 import { getCabin } from "@/app/_lib/data-service"
 import { EyeSlashIcon, MapPinIcon, UsersIcon } from "@heroicons/react/24/solid"
 
