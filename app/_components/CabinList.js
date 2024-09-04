@@ -3,9 +3,11 @@ import { unstable_noStore as noStore } from "next/cache"
 import CabinCard from "@/app/_components/CabinCard"
 import { getCabins } from "../_lib/data-service"
 
-export default async function CabinList() {
-  // noStore()
+async function CabinList() {
+  // noStore();
+
   const cabins = await getCabins()
+  console.log(cabins)
 
   if (!cabins.length) return null
 
@@ -17,3 +19,5 @@ export default async function CabinList() {
     </div>
   )
 }
+
+export default CabinList
