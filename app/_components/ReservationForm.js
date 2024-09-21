@@ -61,7 +61,7 @@ function ReservationForm({ cabin, user }) {
             required
           >
             <option value="" key="">
-              Select number of guests...
+              Number of guests...
             </option>
             {Array.from({ length: maxCapacity }, (_, i) => i + 1).map((x) => (
               <option value={x} key={x}>
