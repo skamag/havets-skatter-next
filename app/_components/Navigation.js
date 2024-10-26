@@ -12,7 +12,7 @@ export default async function Navigation() {
             href="/cabins"
             className="hover:text-accent-400 transition-colors"
           >
-            Cabins
+            Bestill bord
           </Link>
         </li>
         <li>
@@ -20,7 +20,7 @@ export default async function Navigation() {
             href="/about"
             className="hover:text-accent-400 transition-colors"
           >
-            About
+            Om oss
           </Link>
         </li>
         <li>
@@ -42,7 +42,7 @@ export default async function Navigation() {
               href="/account"
               className="hover:text-accent-400 transition-colors"
             >
-              Guest area
+              Min side
             </Link>
           )}
         </li>
